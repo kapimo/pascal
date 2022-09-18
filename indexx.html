@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+	<meta charset="UTF-8">
+	<title>Esis salama</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		
+	</header>
+
+	<div id="wrapper">
+		<div class="owl-carousel" id="slider-area">
+			<div style="background-image: url(img/1.jpg)"></div>
+			<div style="background-image: url(img/2.jpg)"></div>
+			<div style="background-image: url(img/3.jpg)"></div>
+		</div>
+		<div class="nav-area">
+			<div class="nav">
+				<a href="acceuil.html">Accueil</a> 
+				<a class="active" href="education.html">education</a></li>
+ 	   	 	 <li> <a href="#">education <i class="fas fa-caret-down"></i> 
+ 	   	 	 </a> <ul> <li><a href="#">horaire des cours</a></li>
+ 
+				<a href="actualite.html">actualités</a> 
+				<a href="service.html">services</a> 
+				<a href="apropos.html">A propos d'esis</a>
+			</div>
+		</div>
+		<div class="slider-text">
+			<h2>Esis<span>Salama</span></h2>
+			<p>Ecole superieur d'informatique</p>
+			<a class="btn" href="#">Contact Us</a>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+	<script>
+	$('#slider-area').owlCarousel({
+	   loop: true,
+	   autoplay: true,
+	   responsive: {
+	       0: {
+	           items: 1
+	       },
+	       600: {
+	           items: 1
+	       },
+	       1000: {
+	           items: 1
+	       }
+	   }
+	})        
+	</script>
+</body>
+</html>
